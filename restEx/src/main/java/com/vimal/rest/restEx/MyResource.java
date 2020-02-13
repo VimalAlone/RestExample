@@ -25,10 +25,5 @@ public class MyResource {
     }
     
 
-    @Path("resource3")
-    @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    public String get() {
-        return "Got!";
-    }
+
 }
