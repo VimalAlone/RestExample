@@ -24,7 +24,8 @@ public class MyResource {
         return "Got it!";
     }
     
-    @Path("resource2")
+
+    @Path("resource3")
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String get() {
